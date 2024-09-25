@@ -160,6 +160,9 @@ h3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
+  list-style-type: none; /* Прибираємо маркери списку */
+  padding: 0;
+  margin: 0;
 }
 
 .grid-item {
